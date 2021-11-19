@@ -37,7 +37,7 @@ jobs:
 
     - name: Download Misaka Chnroute
       run: |
-          curl -LR -o v4.txt "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
+          curl -LR -o v4.txt "https://github.com/misakaio/chnroutes2/raw/master/chnroutes.txt"
 
     - name: Merge List
       run: |
