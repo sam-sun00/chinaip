@@ -8,4 +8,4 @@ Automatically build and push to release branch daily.
 
 ## License
 
-This data is licensed under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+This data is licensed under [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
