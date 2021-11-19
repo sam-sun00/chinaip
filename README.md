@@ -2,7 +2,7 @@
 
 Combining IPv4 and IPv6 China Routes from BGP Feeds. 
 
-IPv4 feed provided by [chnroutes2 (better-aggregated chnroutes)](https://github.com/misakaio/chnroutes2). 
+IPv4 feed data is provided by [chnroutes2 (better-aggregated chnroutes)](https://github.com/misakaio/chnroutes2). 
 
 Automatically build and push to release branch daily. 
 
