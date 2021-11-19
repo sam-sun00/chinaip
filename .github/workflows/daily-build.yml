@@ -2,7 +2,7 @@ name: Daily Build
 
 on:
   schedule:
-    - cron: 45 17 * * *
+    - cron: 00 17 * * *
   push:
     branches:
       - main
