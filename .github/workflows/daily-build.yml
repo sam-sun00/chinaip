@@ -65,7 +65,6 @@ jobs:
         draft: false
         prerelease: false
         files: |
-          ./mmdb_china_ip_list/version
-          ./mmdb_china_ip_list/china_ip_list.mmdb
+          ./chnroutes.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
