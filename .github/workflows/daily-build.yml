@@ -56,3 +56,16 @@ jobs:
         git commit -m "${{ env.RELEASE_NAME }}"
         git remote add origin "https://${{ github.actor }}:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}"
         git push -f -u origin release
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        name: ${{ env.RELEASE_NAME }}
+        tag_name: ${{ env.TAG_NAME }}
+        draft: false
+        prerelease: false
+        files: |
+          ./mmdb_china_ip_list/version
+          ./mmdb_china_ip_list/china_ip_list.mmdb
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
